@@ -1,0 +1,27 @@
+.topnav {background-color:green; height: auto;
+        }
+    ul{
+        list-style: none;
+    }
+
+        li{
+            padding: 10px 40px;
+            display: inline;
+        }
+ @media (min-width: 320px) and (max-width: 480px) { 
+            body { 
+                background-color: red; 
+            } 
+        }   
+        @media (min-width: 481px) and (max-width: 767px) { 
+            body { 
+                background-color: yellow; 
+            } 
+        } 
+           
+        @media (min-width: 768px) and (max-width: 1024px){ 
+            body { 
+                background-color:green;
+            } 
+        }
+        
